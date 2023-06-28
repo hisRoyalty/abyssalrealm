@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/abyssalrealm/static/css/main.074a15fc.css",
-    "main.js": "/abyssalrealm/static/js/main.da797062.js",
-    "static/js/787.d176ea87.chunk.js": "/abyssalrealm/static/js/787.d176ea87.chunk.js",
+    "main.js": "/abyssalrealm/static/js/main.54e989cd.js",
+    "static/js/787.c6b90e45.chunk.js": "/abyssalrealm/static/js/787.c6b90e45.chunk.js",
     "index.html": "/abyssalrealm/index.html",
     "main.074a15fc.css.map": "/abyssalrealm/static/css/main.074a15fc.css.map",
-    "main.da797062.js.map": "/abyssalrealm/static/js/main.da797062.js.map",
-    "787.d176ea87.chunk.js.map": "/abyssalrealm/static/js/787.d176ea87.chunk.js.map"
+    "main.54e989cd.js.map": "/abyssalrealm/static/js/main.54e989cd.js.map",
+    "787.c6b90e45.chunk.js.map": "/abyssalrealm/static/js/787.c6b90e45.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.074a15fc.css",
-    "static/js/main.da797062.js"
+    "static/js/main.54e989cd.js"
   ]
 }
