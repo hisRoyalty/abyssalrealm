@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/abyssalrealm.tech/static/css/main.074a15fc.css",
-    "main.js": "/abyssalrealm.tech/static/js/main.78043483.js",
-    "static/js/787.d176ea87.chunk.js": "/abyssalrealm.tech/static/js/787.d176ea87.chunk.js",
-    "index.html": "/abyssalrealm.tech/index.html",
-    "main.074a15fc.css.map": "/abyssalrealm.tech/static/css/main.074a15fc.css.map",
-    "main.78043483.js.map": "/abyssalrealm.tech/static/js/main.78043483.js.map",
-    "787.d176ea87.chunk.js.map": "/abyssalrealm.tech/static/js/787.d176ea87.chunk.js.map"
+    "main.css": "/abyssalrealm/static/css/main.074a15fc.css",
+    "main.js": "/abyssalrealm/static/js/main.da797062.js",
+    "static/js/787.d176ea87.chunk.js": "/abyssalrealm/static/js/787.d176ea87.chunk.js",
+    "index.html": "/abyssalrealm/index.html",
+    "main.074a15fc.css.map": "/abyssalrealm/static/css/main.074a15fc.css.map",
+    "main.da797062.js.map": "/abyssalrealm/static/js/main.da797062.js.map",
+    "787.d176ea87.chunk.js.map": "/abyssalrealm/static/js/787.d176ea87.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.074a15fc.css",
-    "static/js/main.78043483.js"
+    "static/js/main.da797062.js"
   ]
 }
