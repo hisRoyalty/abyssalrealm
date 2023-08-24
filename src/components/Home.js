@@ -47,7 +47,7 @@ const Home = () => {
           </a>
         </div>
         <h1 className="text-4xl font-bold text-white mt-16">Abyssal Realm</h1>
-        <p className="text-lg text-gray-400 mb-12">
+        <p className="text-lg text-gray-400 mb-8 mt-8">
           Experience and immerse yourself into the world of nations, politics, and wars.
         </p>
         <div className="flex justify-center">

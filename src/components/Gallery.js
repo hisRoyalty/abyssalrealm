@@ -12,48 +12,48 @@ const Gallery = () => {
   const images = [
     {
       id: 1,
-      title: 'Hub ',
-      url: '/gallery/Hub.png',
+      title: 'Hub',
+      url: 'https://media.discordapp.net/attachments/1007148972214853753/1123488879803117609/2023-06-16_09.58.00.png?width=1282&height=662',
     },
     {
       id: 2,
-      title: 'HogZog AI Faction ',
-      url: '/gallery/zoglins.png',
+      title: 'HogZog AI Faction',
+      url: 'https://media.discordapp.net/attachments/1007148972214853753/1123488913634365540/2023-06-27_22.40.02.png?width=1282&height=662',
     },
     {
       id: 3,
       title: 'Lincoln Sentinels',
-      url: '/gallery/lincoln.png',
+      url: 'https://media.discordapp.net/attachments/1007148972214853753/1123488984622977055/2023-06-27_22.36.26.png?width=1282&height=662',
     },
     {
       id: 4,
       title: 'Bank of Utopia',
-      url: '/gallery/Bank of Utopia.png',
+      url: 'https://media.discordapp.net/attachments/1007148972214853753/1123556728240349305/Bank_of_Utopia.png?width=1250&height=643',
     },
     {
       id: 5,
       title: 'Hogzog Hamlet',
-      url: '/gallery/HogZogHamlet.png',
+      url: 'https://media.discordapp.net/attachments/1007148972214853753/1123488901596708884/2023-06-27_22.40.43.png?width=1282&height=662',
     },
     {
       id: 6,
       title: 'Ironbat-Lincoln Border',
-      url: '/gallery/IronbatLincoln.png',
+      url: 'https://media.discordapp.net/attachments/1007148972214853753/1123488964117020792/2023-06-27_22.37.36.png?width=1282&height=662',
     },
     {
       id: 7,
       title: 'DarkEclipses\' Mansion',
-      url: '/gallery/Mansion.png',
+      url: 'https://media.discordapp.net/attachments/1007148972214853753/1123488973734555699/2023-06-27_22.36.49.png?width=1282&height=662',
     },
     {
       id: 8,
       title: 'TisMe\'s Statue',
-      url: '/gallery/TisMe.png',
+      url: 'https://media.discordapp.net/attachments/1007148972214853753/1123489079405858886/2023-06-27_22.36.40.png?width=1282&height=662',
     },
     {
       id: 9,
       title: 'Creeper Farm, Lincoln Sentinels',
-      url: '/gallery/CreeperFarm.png',
+      url: 'https://media.discordapp.net/attachments/1007148972214853753/1123489011097411624/2023-06-27_22.35.41.png?width=1282&height=662',
     },
   ];
 
@@ -61,7 +61,7 @@ const Gallery = () => {
     <div className="bg-gray-900 min-h-screen">
       <Header />
       <div className="container mx-auto py-8">
-        <h2 className="text-4xl font-bold text-white mb-6">Gallery</h2>
+        <h2 className="text-4xl font-bold text-white mb-6 ml-4">Gallery</h2>
         <div className="grid grid-cols-3 gap-4">
           {images.map((image) => (
             <div
@@ -97,6 +97,7 @@ const Gallery = () => {
           </div>
         )}
       </div>
+      <Footer></Footer>
     </div>
   );
 };

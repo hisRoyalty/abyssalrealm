@@ -9,14 +9,18 @@ const Header = () => {
     setDropdownOpen(!dropdownOpen);
   };
 
+  const handleModsDownload = () => {
+    window.location.href = 'https://drive.google.com/uc?export=download&id=1lCZVnDEza89kgT8dBsJuoBlYbaBdPQgH';
+  };
+
   return (
     <header className="bg-gray-800 py-4">
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center">
-          <img src="/abyssalrealm.png" alt="Abyssal Realm Logo" className="ml-4 w-10 h-10 mr-2" />
+          <img src="https://media.discordapp.net/attachments/1007148972214853753/1122590456073691176/AbyssalRaiders.png?width=200&height=200" alt="Abyssal Realm Logo" className="ml-4 w-10 h-10 mr-2" />
           <div className="text-white font-bold text-xl">Abyssal Realm</div>
         </div>
-        <nav className="ml-4 mr-8">
+        <nav className="ml-4 mr-12">
           <ul className="flex space-x-4">
             <li>
               <Link to="/" className="text-gray-300 hover:text-white transition duration-300">
@@ -44,8 +48,13 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a href="https://drive.google.com/drive/folders/1DVuh-qrccjsR2crLe2ZSkLnXLh1FnYPm?usp=share_link" className="text-gray-300 hover:text-white transition duration-300">
+              <a onClick={handleModsDownload} className="text-gray-300 hover:text-white transition duration-300 cursor-pointer">
                 Mods
+              </a>
+            </li>
+            <li>
+              <a href="/#/tutorial" className="text-gray-300 hover:text-white transition duration-300">
+                Tutorials
               </a>
             </li>
             <li className="relative">
@@ -61,6 +70,11 @@ const Header = () => {
                   <li>
                     <Link to="/factions" className="text-gray-300 hover:text-white transition duration-300">
                       Factions
+                    </Link>
+                  </li>
+                  <li className="whitespace-nowrap">
+                    <Link to="/aifactions" className="text-gray-300 hover:text-white transition duration-300">
+                      AI Factions
                     </Link>
                   </li>
                   <li>

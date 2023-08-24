@@ -1,16 +1,16 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import Staff from './components/Staff';
 import ServerStatus from './components/ServerStatus';
 import Mods from './components/Mods';
 import Gallery from './components/Gallery';
-
-import Map from './components/Map'
+import Map from './components/Map';
 import StickyWindow from './components/IPStickyWindow';
 import Factions from './components/Factions';
-
+import AIFactions from './components/AIFactions';
+import TutorialComponent from './components/Tutorial';
 
 const App = () => {
   return (
@@ -26,13 +26,13 @@ const App = () => {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/map" element={<Map />} />
           <Route path="/factions" element={<Factions />} />
-
+          <Route path="/aifactions" element={<AIFactions />} />
+          <Route path="/tutorial" element={<TutorialComponent />} />
 
         </Routes>
       </div>
     </Router>
   );
-}
+};
 
 export default App;
-
